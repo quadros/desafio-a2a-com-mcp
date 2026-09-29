@@ -1,0 +1,17 @@
+[project]
+name = "servidor-mcp"
+version = "1.0.0"
+description = "Servidor MCP (Streamable HTTP) da Central de Salas."
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.2.0",
+    "starlette==1.7.0",
+    "uvicorn==0.54.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["servidor_mcp*"]

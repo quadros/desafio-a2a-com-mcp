@@ -1,6 +1,8 @@
 .env
 .venv/
+.venv-check/
 __pycache__/
+*.egg-info/
 node_modules/
 dist/
 *.log
